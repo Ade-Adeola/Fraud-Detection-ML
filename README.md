@@ -10,7 +10,7 @@ This project demonstrates how to build a machine learning model that predicts wh
 - Deployed using **Streamlit** for interactive predictions  
 
 ## ⚙️ Tech Stack
-- Python (pandas, numpy, scikit-learn, xgboost)  
+- Python (pandas, numpy, matlotlib, seaborn, scipy, scikit-learn, xgboost)  
 - Streamlit (deployment)
 
 ## 📈 Key Results
