@@ -22,4 +22,4 @@ This project demonstrates how to build a machine learning model that predicts wh
 ## 🚀 How to Run
 ```bash
 pip install -r requirements.txt
-streamlit run app/streamlit_app.py
+streamlit run app/Fraud_app.py
