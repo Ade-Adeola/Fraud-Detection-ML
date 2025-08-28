@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 with open('fraud_threshold.pkl', 'rb') as f:
     art = pickle.load(f)
 
-model = art['pipepline']
+model = art['pipeline']
 THRESH = art['threshold']
 
 # Streamlit UI
