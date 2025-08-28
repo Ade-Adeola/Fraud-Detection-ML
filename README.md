@@ -17,7 +17,9 @@ This project demonstrates how to build a machine learning model that predicts wh
 - Accuracy: ~0.78  
 - Recall: ~0.46 (priority metric)  
 - ROC AUC: ~0.64  
-- PR AUC: ~0.08 (≈2× random baseline)  
+- PR AUC: ~0.08 (≈2× random baseline)
+
+👉 Full code with output [View Notebook with Outputs (PDF)](notebooks/Fraud_Pred_with_output.pdf?raw=1) 
 
 ## 🚀 How to Run
 ```bash
