@@ -20,13 +20,13 @@ This project demonstrates how to build a machine learning model that predicts wh
 - PR AUC: ~0.08 (≈2× random baseline)
 
 ## 💻 Code
-App code 👉 [Streamlit App](app/Fraud_app.py)
-Clean code 👉 [Training Notebook](notebooks/Fraud_Pred.ipynb?raw=1)
-Full code with output 👉 [View Notebook with Outputs (PDF)](notebooks/Fraud_Pred_with_output.pdf?raw=1) 
+- App code 👉 [Streamlit App](app/Fraud_app.py)
+- Clean code 👉 [Training Notebook](notebooks/Fraud_Pred.ipynb?raw=1)
+- Full code with output 👉 [View Notebook with Outputs (PDF)](notebooks/Fraud_Pred_with_output.pdf?raw=1) 
 
 ## 📑 Project Report
-PDF report 👉 [Fraud Detection Report (PDF)](report/Fraud_Detection_Report.pdf?raw=1)
-DOCX report 👉 [Fraud Detection Report (DOCX)](report/Fraud_Detection_Report.docx?raw=1)
+- PDF report 👉 [Fraud Detection Report (PDF)](report/Fraud_Detection_Report.pdf?raw=1)
+- DOCX report 👉 [Fraud Detection Report (DOCX)](report/Fraud_Detection_Report.docx?raw=1)
 
 ## 🚀 How to Run
 ```bash
