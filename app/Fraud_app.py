@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 with open('fraud_threshold.pkl', 'rb') as f:
     art = pickle.load(f)
 
-model = art['pipeline']
+model = art['pipepline']
 THRESH = art['threshold']
 
 # Streamlit UI
@@ -22,6 +22,9 @@ option = st.radio('Choose prediction mode:', ['Single input', 'Upload CSV file']
 if option == 'Single input':
     # Add input fields (from dataset features)
 
+    transaction_time = st.selectbox('Transaction Time',
+                                    [f"{h:02d}:00:00" for h in range(24)],  # hourly options
+                                    index=12)
     transaction_amount = st.number_input('Transaction Amount', value=0.0, step=10.0)
     transaction_type = st.selectbox('Transaction Type', ['deposit', 'purchase', 'transfer', 'withdrawal'])
     transaction_channel = st.selectbox('Transaction Channel', ['ATM', 'POS', 'mobile_app', 'online'])
